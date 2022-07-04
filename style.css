@@ -1,14 +1,35 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: hsl(212, 45%, 89%);
-}
-
-body {
-  text-align: center;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 .QR-box {
   display: inline-block;
-  background-color: white;
+  background-color: #fff;
+  width: 320px;
+  padding: 15px;
+  border-radius: 6%;
+  margin: 200px 0 40px 0;
+}
+
+.QR-image {
+  width: 290px;
+  border-radius: 5%;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+body {
+  text-align: center;
+  background-color: #c6d1e6;
+  font-size: 15px;
+}
+
+p {
+  margin: 20px;
 }
